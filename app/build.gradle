@@ -1,0 +1,11 @@
+dependencies {
+    // Other dependencies...
+    
+    // Firebase Firestore
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.0.0' // Update version as necessary
+    // Firebase Analytics
+    implementation 'com.google.firebase:firebase-analytics-ktx:24.0.0' // Update version as necessary
+}
+
+// Apply Google services plugin
+apply plugin: 'com.google.gms.google-services'
